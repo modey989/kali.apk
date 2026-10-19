@@ -1,0 +1,11 @@
+{
+  "name": "Kali Desktop",
+  "dockerFile": "../Dockerfile",
+  "forwardPorts": [6080, 5901],
+  "portsAttributes": {
+    "6080": {
+      "label": "Kali Desktop",
+      "onAutoForward": "openPreview"
+    }
+  }
+}
